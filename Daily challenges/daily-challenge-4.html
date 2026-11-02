@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photo Gallery - Aladine</title>
+
+```
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f1f5f9;
+    }
+
+    h1 {
+        text-align: center;
+        color: #1e293b;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        max-width: 1100px;
+        margin: 30px auto;
+    }
+
+    figure {
+        margin: 0;
+        background: white;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    figure img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    figcaption {
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    @media (max-width: 700px) {
+        .gallery {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 450px) {
+        .gallery {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<header>
+    <h1>My Photo Gallery</h1>
+    <p style="text-align: center;">
+        A collection representing creativity, technology and learning.
+    </p>
+</header>
+
+<main>
+    <section class="gallery">
+
+        <figure>
+            <img src="https://placehold.co/400x250?text=Technology"
+                 alt="Placeholder representing technology">
+            <figcaption>Technology</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://placehold.co/400x250?text=Programming"
+                 alt="Placeholder representing programming">
+            <figcaption>Programming</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://placehold.co/400x250?text=Creativity"
+                 alt="Placeholder representing creativity">
+            <figcaption>Creativity</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://placehold.co/400x250?text=Education"
+                 alt="Placeholder representing education">
+            <figcaption>Education</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://placehold.co/400x250?text=Teamwork"
+                 alt="Placeholder representing teamwork">
+            <figcaption>Teamwork</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://placehold.co/400x250?text=Innovation"
+                 alt="Placeholder representing innovation">
+            <figcaption>Innovation</figcaption>
+        </figure>
+
+    </section>
+</main>
+
+<footer>
+    <p style="text-align: center;">
+        &copy; 2026 Aladineesawe-GENKEMBOI. All rights reserved.
+    </p>
+</footer>
+```
+
+</body>
+</html>
