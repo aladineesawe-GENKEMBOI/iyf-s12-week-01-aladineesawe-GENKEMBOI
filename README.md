@@ -14,7 +14,7 @@ This repository demonstrates my understanding of HTML fundamentals, semantic HTM
 
 ## Live Demo
 
-Coming soon.
+https://aladineesawe-genkemboi.github.io/iyf-s12-week-01-aladineesawe-GENKEMBOI/
 
 ## Project Overview
 
@@ -85,12 +85,5 @@ week-01/
 └── images/
 ```
 
-## Author
-
-**Aladine Esawe-GENKEMBOI**
-
-IYF Season 12 Web Development Student.
-
----
 
 © 2026 Aladineesawe-GENKEMBOI. All rights reserved.
